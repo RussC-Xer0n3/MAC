@@ -2,7 +2,7 @@
 ## Generating all possible MAC Addresses
 
 ### Preamble
-The code here was the preamble to [IP-Port](https://russc-xer0n3.github.io/IP-Port). I was looking into MAC addresses and noting them all down to reference them in another project which has not yet been started, I considered a automated randomiser however, the issue is that consumes a lot of processing power to randomise and what if you want to reference certain addresses?
+The code here was the preamble to [IP-Port](https://russc-xer0n3.github.io/IP-Port). I was looking into MAC addresses and noting them all down to reference them in another project which has not yet been started; I considered an automated randomiser however, the issue is that consumes a lot of processing power to randomise and what if you want to reference certain addresses?
 
 ### Solution
 The solution was to pipe ```>>``` or ```||``` out to a text file or generate the MAC addresses to [key to value pairs dictionary](https://www.geeksforgeeks.org/add-a-keyvalue-pair-to-dictionary-in-python/) and use the file as a reference saving processing power in the long run.
